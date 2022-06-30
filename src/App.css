@@ -1,0 +1,28 @@
+.cards{
+  display:flex;
+  flex-flow:column nowrap;
+  margin:3px;
+  width:400px;
+  overflow:auto;
+}
+label{
+  color:tomato
+}
+span{
+  font-weight:bold
+}
+.items{
+  margin:14px
+}
+.stars{
+  color:gold
+}
+form{
+  display:flex;
+  flex-flow:column nowrap;
+  width:200px;
+  overflow:auto
+}
+textarea,input,select{
+  border:1px solid black
+}
